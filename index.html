@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main class="container">
+        <div class="card">
+            <div class="card__head">
+                <div class="card__icon--start">
+                    <img class="card__img" src="./images/icon-star.svg" alt="">
+                </div>
+                <div class="card__text--title">
+                    <span>How did we do?</span>
+                </div>
+            </div>
+            <div class="card__body">
+                <div class="card__text--body">
+                    Please let us know how we did with you support request. All feedback is appreciated to help us improve our offering!
+                </div>
+                <div class="card__buttons--circles">
+                    <button class="card__button--circle card__button--one" data-value="1">1</button>
+                    <button class="card__button--circle card__button--two" data-value="2">2</button>
+                    <button class="card__button--circle card__button--three" data-value="3">3</button>
+                    <button class="card__button--circle card__button--four" data-value="4">4</button>
+                    <button class="card__button--circle card__button--five" data-value="5">5</button>
+                </div>
+            </div>
+            <div class="card__footer">
+                <button class="card__button card__button--submit">
+                    SUBMIT
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <template id="card__thank-you" >
+        <div class="card__head--submit">
+            <div class="card__img--thank-you">
+                <img src="images/illustration-thank-you.svg" alt="">
+            </div>
+            <div class="card__button--wrapper">
+                <button class="card__button card__button--thank-you">
+                    You selected 4 out of 5
+                </button>
+            </div>
+        </div>
+
+        <div class="card__body--submit">
+            <div class="card__text--title">
+                <span>Thank you!</span>
+            </div>
+            <div class="card__text--body">
+                <span>
+                    We appreciate you taking the time to give a rating.
+                </span>
+                <span>
+                    If you ever need more support, don´t hesitate to get in touch!
+                </span>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
